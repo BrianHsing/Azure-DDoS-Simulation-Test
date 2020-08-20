@@ -8,7 +8,9 @@
  - 學會如何查看攻擊後的完整摘要<br>
 
 ## 環境準備 <br>
- 
+ - 註冊 BreakingPoint Cloud https://breakingpoint.cloud/login
+  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/signup.PNG "signup")
+
 
 
 **參考來源與更詳細的說明**
