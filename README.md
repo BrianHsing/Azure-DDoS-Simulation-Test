@@ -10,7 +10,7 @@
 ## 環境準備 <br>
  - Azure 訂用帳戶、Azure 訂用帳戶擁有者權限<br>
  - 準備 BreakingPoint Cloud 環境<br>
-	- 註冊 BreakingPoint Cloud https://breakingpoint.cloud/login ，點選 Sign Up。<br>
+	- 註冊 BreakingPoint Cloud https://breakingpoint.cloud/login ，點選 Sign Up，輸入個人基本資料，完成後您就可以獲取到一個擁有 5GB 頻寬量的測試帳號。<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/signup.PNG "signup")<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/signup2.PNG "signup2")<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/signup3.PNG "signup3")<br>
