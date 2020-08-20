@@ -20,4 +20,3 @@
 
 
 **參考來源與更詳細的說明**
-https://docs.microsoft.com/zh-tw/azure/migrate/tutorial-prepare-hyper-v
