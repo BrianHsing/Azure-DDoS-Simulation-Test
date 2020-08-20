@@ -10,11 +10,13 @@
 ## 環境準備 <br>
  - Azure 訂用帳戶、Azure 訂用帳戶擁有者權限<br>
  - 準備 BreakingPoint Cloud 環境<br>
-	- 註冊 BreakingPoint Cloud https://breakingpoint.cloud/login ，點選 Sign Up。
+	- 註冊 BreakingPoint Cloud https://breakingpoint.cloud/login ，點選 Sign Up。<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/signup.PNG "signup")<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/signup2.PNG "signup2")<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/signup3.PNG "signup3")<br>
-  
+	- 輸入您的 Azure Subscription ID，並驗證您的身分，確保此服務不用於惡意攻擊。<br>
+	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/signup4.PNG "signup4")<br>
+	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/signup5.PNG "signup5")<br>
 
 
 **參考來源與更詳細的說明**
