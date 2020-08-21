@@ -22,7 +22,14 @@
  - 使用 CloudShell 快速部署 Lab 環境
 	- 啟用 CloudShell<br>
     - 輸入`Connect-AzAccount` 登入<br>
+	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/loginCloudShell.PNG "loginCloudShell")<br>
 	- 上傳 AppServiceAndAppGW.ps1，此檔案會建立資源群組、虛擬網路、應用程式服務、App Service 方案(S1)、應用程式閘道(WAF_v2)、公用 IP、網路安全性群組<br>
-	- 將後端集區目標指向應用程式服務
+	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/uploadps.PNG "uploadps")<br>
+	- 輸入並執行 `./AppServiceAndAppGW.ps1` <br>
+	- 將後端集區目標指向應用程式服務<br>
+		- 選擇剛建立好的應用程式閘道 AppGW，點選設定類別下方的「後端集區」<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/backendpool.PNG "backendpool")<br>
+		- 目標類型選擇「應用程式服務」，目標選擇剛建立好的應用程式服務<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/backendpool2.PNG "backendpool2")<br>
 
 **參考來源與更詳細的說明**
