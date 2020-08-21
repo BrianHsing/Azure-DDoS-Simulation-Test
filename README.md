@@ -52,14 +52,20 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diagsetting3.png "diagsetting3")<br>
  - 請勾選「AllMetrics」、「傳送至 Log Analytics」，選擇您的訂閱與剛剛建立的工作區<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diagsetting4.png "diagsetting4")<br>
+## 檢視 DDoS 風險降低原則
+
+## 設定 DDoS 保護計量的警示
 
 ## 使用 DDoS 保護遙測
-## 檢視 DDoS 風險降低原則
-## 設定 DDoS 保護計量的警示
+
 ## 設定 DDoS 攻擊分析
+
 ## 設定 DDoS 攻擊風險降低報告
+
 ## 設定 DDoS 攻擊風險降低流程記錄
+
 ## 驗證 DDoS 偵測
 **參考來源與更詳細的說明**
 https://docs.microsoft.com/zh-tw/azure/security/fundamentals/ddos-best-practices
 https://docs.microsoft.com/zh-tw/azure/virtual-network/ddos-protection-overview
+https://docs.microsoft.com/zh-tw/azure/virtual-network/manage-ddos-protection
