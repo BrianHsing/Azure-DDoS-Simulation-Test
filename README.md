@@ -60,11 +60,11 @@
  - <br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert3.PNG "metricsalert3")<br>
  - <br>
- ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert4.png "metricsalert4")<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert4.PNG "metricsalert4")<br>
  - <br>
- ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert5.png "metricsalert5")<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert5.PNG "metricsalert5")<br>
  - <br>
- ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert6.png "metricsalert6")<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert6.PNG "metricsalert6")<br>
 ## 使用 DDoS 保護遙測
 
 ## 設定 DDoS 攻擊分析
