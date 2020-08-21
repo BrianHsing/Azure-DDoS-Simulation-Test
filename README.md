@@ -49,9 +49,9 @@
  - 建立 Log Analytics 工作區，資源群組輸入 AppGW，名稱請自行定義，區域請選擇日本東部，完成後請按評論與建立<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/createloganalytic.PNG "createloganalytic")<br>
  - 在監視的功能列表中點選「診斷紀錄」，在右方頁面點選「新增診斷紀錄」<br>
- ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diagsetting1.PNG "diagsetting1")<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diagsetting3.PNG "diagsetting3")<br>
  - 請勾選「AllMetrics」、「傳送至 Log Analytics」，選擇您的訂閱與剛剛建立的工作區<br>
- ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diagsetting2.PNG "diagsetting2")<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diagsetting4.PNG "diagsetting4")<br>
 
 ## 使用 DDoS 保護遙測
 ## 檢視 DDoS 風險降低原則
