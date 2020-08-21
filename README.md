@@ -35,5 +35,12 @@
 		![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/backendpool.PNG "backendpool")<br>
 		- 目標類型選擇「應用程式服務」，目標選擇剛建立好的應用程式服務<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/backendpool2.PNG "backendpool2")<br>
+	- 確認流量能夠由應用程式閘道前端公用 IP 位置進入
+		- 選擇應用程式閘道，在概觀中複製前端公用 IP 位置
+		![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/appgwinfo.PNG "appgwinfo")<br>
+		- 直接將前端公用 IP 位置貼上瀏覽器執行
+		![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/browsercheck.PNG "browsercheck")<br>
+
+## 啟用 Azure DDoS Protection Standard 保護 PaaS Web 應用程式
 
 **參考來源與更詳細的說明**
