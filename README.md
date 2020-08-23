@@ -54,9 +54,9 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diagsetting4.png "diagsetting4")<br>
 ## 使用 Azure Monitor 查看計量
 - 在 Portal 上方搜尋監視，並點選此服務<br>
- ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric4.png "metric4")<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric4.PNG "metric4")<br>
 - 在服務項目選單中選擇「計量」<br>
- ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric5.png "metric5")<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric5.PNG "metric5")<br>
 - 單獨選擇公用 IP 位置「myAGPublicIPAddress」<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric6.png "metric6")<br>
 - 確認服務是否遭受到攻擊 Under DDoS attack or not 值為 1 時，代表正在遭受攻擊，下一個小節會讓您使用這個計量建立警示<br>
