@@ -6,7 +6,7 @@
  - 註冊、使用 BreakingPoint Cloud 驗證 Microsoft Azure DDoS Standard<br>
  - 學會如何啟用 Azure DDoS Protection Standard 保護 PaaS Web 應用程式<br>
  - 學會如何通過 Azure 監視器進行遙測、查看攻擊期間詳細資料、設定警示<br>
- - 學會如何查看攻擊後的完整摘要 (待完成)<br>
+ - 學會如何查看攻擊後的完整摘要<br>
 
 ## 環境準備 <br>
  - Azure 訂用帳戶、Azure 訂用帳戶擁有者權限<br>
@@ -100,7 +100,7 @@
 	- Inbound SYN packets to trigger DDoS mitigation
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric2.PNG "metric2")<br>
 
-## 攻擊後查看相關紀錄
+## 攻擊後查看相關紀錄(待完成)
  - DDoS 攻擊風險降低報告
  - DDoS 攻擊風險降低流程記錄
 
