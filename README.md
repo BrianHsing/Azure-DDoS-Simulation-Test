@@ -6,8 +6,7 @@
  - 註冊、使用 BreakingPoint Cloud 驗證 Microsoft Azure DDoS Standard<br>
  - 學會如何啟用 Azure DDoS Protection Standard 保護 PaaS Web 應用程式<br>
  - 學會如何通過 Azure 監視器進行遙測、查看攻擊期間詳細資料、設定警示<br>
- - 學會如何求助專業快速回應團隊支援<br>
- - 學會如何查看攻擊後的完整摘要<br>
+ - 學會如何查看攻擊後的完整摘要 (待完成)<br>
 
 ## 環境準備 <br>
  - Azure 訂用帳戶、Azure 訂用帳戶擁有者權限<br>
@@ -72,7 +71,7 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/alert3.PNG "alert3")<br>
 
 ## 驗證 DDoS 偵測
-- 登入您剛註冊的帳號 BreakingPoint Cloud https://breakingpoint.cloud/login ，並依序填入與選擇<br>
+ - 登入您剛註冊的帳號 BreakingPoint Cloud https://breakingpoint.cloud/login ，並依序填入與選擇<br>
 	- Target IP Address : 請填入應用程式閘道 AppGW 的公用 IP 位置<br>
 	- Port Number : 請填入 80 <br>
 	- DDoS Profile : 請在下拉式選單中選擇您要的攻擊型式，此範例選擇 TCP SYN Flood<br>
@@ -82,31 +81,29 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSTest2.PNG "DDoSTest2")<br>
 
 ## 使用 Azure Monitor 查看計量
-- 在 Portal 上方搜尋監視，並點選此服務<br>
+ - 在 Portal 上方搜尋監視，並點選此服務<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric4.PNG "metric4")<br>
-- 在服務項目選單中選擇「計量」<br>
+ - 在服務項目選單中選擇「計量」<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric5.PNG "metric5")<br>
-- 單獨選擇公用 IP 位置「myAGPublicIPAddress」<br>
+ - 單獨選擇公用 IP 位置「myAGPublicIPAddress」<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric6.png "metric6")<br>
-- 確認服務是否遭受到攻擊 Under DDoS attack or not 值為 1 時，代表正在遭受攻擊<br>
+ - 確認服務是否遭受到攻擊 Under DDoS attack or not 值為 1 時，代表正在遭受攻擊<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric1.PNG "metric1")<br>
-- 我們可以監控幾個度量值，來觀察在攻擊過程中近似即時的封包變化<br>
+ - 我們可以監控幾個度量值，來觀察在攻擊過程中近似即時的封包變化<br>
 	- Inbound Packets Dropped DDoS : DDoS 保護系統在攻擊期間丟棄的封包<br>
 	- Inbound Packets Forwarded DDoS : DDoS 保護系統在攻擊期間轉發的封包，代表未被過濾的流量<br>
 	- Inbound Packets DDoS : 進入 DDoS 保護系統總封包數量，上面兩個度量封包總和<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric3.PNG "metric3")<br>
-- 在這三個度量中，可以知道目前通過 Azure 機器學習後自動設置的閾值指標，只有當達到閾值時，才會觸發 DDoS 保護系統的緩和機制<br>
+ - 在這三個度量中，可以知道目前通過 Azure 機器學習後自動設置的閾值指標，只有當達到閾值時，才會觸發 DDoS 保護系統的緩和機制<br>
 	- Inbound TCP packets to trigger DDoS mitigation
 	- Inbound UDP packets to trigger DDoS mitigation
 	- Inbound SYN packets to trigger DDoS mitigation
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric2.PNG "metric2")<br>
 
-## 設定 DDoS 攻擊風險降低報告
+## 攻擊後查看相關紀錄
+ - DDoS 攻擊風險降低報告
+ - DDoS 攻擊風險降低流程記錄
 
-## 設定 DDoS 攻擊風險降低流程記錄
-
-## 連絡 Microsoft 支援服務
-- 當您在遭受 DDoS 攻擊時，您發現受保護資源的效能嚴重降低或無法使用該資源。或是您認為 DDoS 保護服務並未如預期般運作，您就可以開立嚴重性 A 的支援票證。
 
 
 **參考來源與更詳細的說明**<br>
