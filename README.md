@@ -1,4 +1,4 @@
-# 實作 Azure DDoS Protection Standard 壓力測試<br>
+# 實作 Azure DDoS Protection Standard 模擬測試<br>
 分散式阻斷服務 (DDoS) 攻擊是將應用程式移至雲端的客戶所面臨的最大可用性和安全性顧慮之一，規劃和準備 DDoS 攻擊對於瞭解實際攻擊期間應用程式的可用性和回應至關重要。Azure DDoS 主要緩和來自 Layer 3、4 的網路攻擊流量，
  但是還是會有來自 Layer 7 的攻擊，鎖定 Web 應用程式封包，我們可以使用 Azure 應用程式閘道來提供這些攻擊的防禦，本篇佈署的架構由 Web 應用程式、Azure 應用程式閘道組成的架構來讓大家練習。<br><br>
 微軟與 BreakingPoint Cloud 合作，讓開發商、開發者可以透過 BreakingPoint Cloud 驗證 Microsoft Azure DDoS 保護如何保護 Azure 資源，不過一個 Trial 帳號只有 5GB 的免費流量，如果長期測試還是需要購買付費方案。<br>
@@ -101,14 +101,12 @@
 	- Inbound SYN packets to trigger DDoS mitigation
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric2.PNG "metric2")<br>
 
-## 設定 DDoS 攻擊分析
-
-
-## 設定 DDoS 攻擊分析
-
 ## 設定 DDoS 攻擊風險降低報告
 
 ## 設定 DDoS 攻擊風險降低流程記錄
+
+## 連絡 Microsoft 支援服務
+- 當您在遭受 DDoS 攻擊時，您發現受保護資源的效能嚴重降低或無法使用該資源。或是您認為 DDoS 保護服務並未如預期般運作，您就可以開立嚴重性 A 的支援票證。
 
 
 **參考來源與更詳細的說明**<br>
