@@ -110,6 +110,7 @@
 
 
 **參考來源與更詳細的說明**<br>
-https://docs.microsoft.com/zh-tw/azure/security/fundamentals/ddos-best-practices
-https://docs.microsoft.com/zh-tw/azure/virtual-network/ddos-protection-overview
-https://docs.microsoft.com/zh-tw/azure/virtual-network/manage-ddos-protection
+https://docs.microsoft.com/zh-tw/azure/security/fundamentals/ddos-best-practices <br>
+https://docs.microsoft.com/zh-tw/azure/virtual-network/ddos-protection-overview <br>
+https://docs.microsoft.com/zh-tw/azure/virtual-network/manage-ddos-protection <br>
+https://azure.microsoft.com/zh-tw/blog/ddos-protection-attack-analytics-rapid-response <br>
