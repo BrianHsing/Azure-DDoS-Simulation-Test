@@ -94,11 +94,16 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric6.png "metric6")<br>
 - 確認服務是否遭受到攻擊 Under DDoS attack or not 值為 1 時，代表正在遭受攻擊<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric1.PNG "metric1")<br>
-- <br>
- ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric2.PNG "metric2")<br>
-- <br>
+- 我們可以監控幾個度量值，來觀察在攻擊過程中近似即時的封包變化<br>
+	- Inbound Packets Dropped DDoS : DDoS 保護系統在攻擊期間丟棄的封包<br>
+	- Inbound Packets Forwarded DDoS : DDoS 保護系統在攻擊期間轉發的封包，代表未被過濾的流量<br>
+	- Inbound Packets DDoS : 進入 DDoS 保護系統總封包數量，上面兩個度量封包總和<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric3.PNG "metric3")<br>
-- <br>
+- 在這三個度量中，可以知道目前通過 Azure 機器學習後自動設置的閾值指標，只有當達到閾值時，才會觸發 DDoS 保護系統的緩和機制<br>
+	- Inbound TCP packets to trigger DDoS mitigation
+	- Inbound UDP packets to trigger DDoS mitigation
+	- Inbound SYN packets to trigger DDoS mitigation
+	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric2.PNG "metric2")<br>
 
 
 ## 設定 DDoS 攻擊分析
