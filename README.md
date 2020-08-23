@@ -54,19 +54,23 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diagsetting4.png "diagsetting4")<br>
 
 ## 設定 DDoS 保護計量的警示
- - <br>
+ - 在 Portal 上方搜尋監視，並點選此服務<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric4.PNG "metric4")<br>
+ - 在服務項目選單中選擇「計量」<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric5.PNG "metric5")<br>
+ - 單獨選擇公用 IP 位置「myAGPublicIPAddress」<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert1.PNG "metricsalert1")<br>
- - <br>
+ - 在度量欄位的下拉式選單選擇 Under DDoS attack or not，值為 1 時，代表正在遭受攻擊，完成後請點選上方「新增警示規則」<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert2.PNG "metricsalert2")<br>
- - <br>
+ - 將條件設定為大於等於閾值 1 時觸發，完成後儲存<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert3.PNG "metricsalert3")<br>
- - <br>
+ - 新增動作群組，在這個步驟中，您可以選擇觸發條件後要使用何種方式通知，在這之前您必須先建立動作群組<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert4.PNG "metricsalert4")<br>
- - <br>
+ - 本範例選擇 Email 方式通知<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert5.PNG "metricsalert5")<br>
- - <br>
+ - 最後請將您的警示規則命名、給予適當描述，並將嚴重性選擇 Sev 0，嚴重程度由大到小排序為 0- 5<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert6.PNG "metricsalert6")<br>
- - <br>
+ - 在下個小節中您將會使用 BreakingPoint Cloud 驗證 DDoS 保護，您可以您指定的信箱中發現通知信件，以及在 Azure Portal 中的警示計數與詳細資訊<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/alert1.png "alert1")<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/alert2.png "alert2")<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/alert3.PNG "alert3")<br>
@@ -80,6 +84,7 @@
 	- Test Duration : 選擇此攻擊驗證持續 10 分鐘<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSTest1.PNG "DDoSTest1")<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSTest2.PNG "DDoSTest2")<br>
+
 ## 使用 Azure Monitor 查看計量
 - 在 Portal 上方搜尋監視，並點選此服務<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric4.PNG "metric4")<br>
@@ -87,7 +92,7 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric5.PNG "metric5")<br>
 - 單獨選擇公用 IP 位置「myAGPublicIPAddress」<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric6.png "metric6")<br>
-- 確認服務是否遭受到攻擊 Under DDoS attack or not 值為 1 時，代表正在遭受攻擊，下一個小節會讓您使用這個計量建立警示<br>
+- 確認服務是否遭受到攻擊 Under DDoS attack or not 值為 1 時，代表正在遭受攻擊<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric1.PNG "metric1")<br>
 - <br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric2.PNG "metric2")<br>
