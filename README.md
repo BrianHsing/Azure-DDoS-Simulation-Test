@@ -52,6 +52,21 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diagsetting3.png "diagsetting3")<br>
  - 請勾選「AllMetrics」、「傳送至 Log Analytics」，選擇您的訂閱與剛剛建立的工作區<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diagsetting4.png "diagsetting4")<br>
+## 使用 Azure Monitor 查看計量
+- 在 Portal 上方搜尋監視，並點選此服務<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric4.png "metric4")<br>
+- 在服務項目選單中選擇「計量」<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric5.png "metric5")<br>
+- 單獨選擇公用 IP 位置「myAGPublicIPAddress」<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric6.png "metric6")<br>
+- 確認服務是否遭受到攻擊 Under DDoS attack or not 值為 1 時，代表正在遭受攻擊，下一個小節會讓您使用這個計量建立警示<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric1.png "metric1")<br>
+- <br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric2.png "metric2")<br>
+- <br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric3.png "metric3")<br>
+- <br>
+
 ## 設定 DDoS 保護計量的警示
  - <br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert1.PNG "metricsalert1")<br>
@@ -65,13 +80,16 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert5.PNG "metricsalert5")<br>
  - <br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metricsalert6.PNG "metricsalert6")<br>
-## 使用 DDoS 保護遙測
-
+ - <br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/alert1.PNG "alert1")<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/alert2.PNG "alert2")<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/alert3.PNG "alert3")<br>
 ## 設定 DDoS 攻擊分析
 
 ## 設定 DDoS 攻擊風險降低報告
 
 ## 設定 DDoS 攻擊風險降低流程記錄
+
 
 ## 驗證 DDoS 偵測
 
