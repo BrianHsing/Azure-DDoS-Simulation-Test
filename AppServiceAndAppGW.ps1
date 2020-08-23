@@ -4,22 +4,22 @@ $location = "Japan East"
 New-AzResourceGroup -Name $resourceGroup -Location $location
 
 #建立網路安全性群組
-$networkSecurityGroup = New-AzNetworkSecurityGroup -Name "AppGW-NSG" -ResourceGroupName $resourceGroup  -Location  $location
+$rule1 = New-AzNetworkSecurityRuleConfig -Name rule1 -Description "Allow Gateway Manager" `
+    -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix `
+    GatewayManager -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 65200-65535
+$networkSecurityGroup = New-AzNetworkSecurityGroup -Name "AppGW-NSG" -ResourceGroupName $resourceGroup  -Location  $location -SecurityRules $rule1
 
 #建立虛擬網路
 $agSubnetConfig = New-AzVirtualNetworkSubnetConfig `
   -Name myAGSubnet `
-  -AddressPrefix 10.0.1.0/24
-$backendSubnetConfig = New-AzVirtualNetworkSubnetConfig `
-  -Name myBackendSubnet `
-  -AddressPrefix 10.0.2.0/24 `
+  -AddressPrefix 10.0.1.0/24 `
   -NetworkSecurityGroup $networkSecurityGroup
 New-AzVirtualNetwork `
   -ResourceGroupName $resourceGroup `
   -Location $location `
   -Name myVNet `
   -AddressPrefix 10.0.0.0/16 `
-  -Subnet $agSubnetConfig, $backendSubnetConfig
+  -Subnet $agSubnetConfig
 New-AzPublicIpAddress `
   -ResourceGroupName $resourceGroup `
   -Location $location `
