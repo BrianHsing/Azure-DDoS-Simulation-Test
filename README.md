@@ -74,6 +74,7 @@
  - 在下個小節中您將會使用 BreakingPoint Cloud 驗證 DDoS 保護，您可以您指定的信箱中發現通知信件，以及在 Azure Portal 中的警示計數與詳細資訊<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/alert1.png "alert1")<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/alert2.png "alert2")<br>
+ - 警示紀錄觸發統計<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/alert3.PNG "alert3")<br>
 
 ## 驗證 DDoS 偵測
