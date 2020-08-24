@@ -53,7 +53,7 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric6.png "metric6")<br>
  - 選擇「新增診斷設定」，勾選「DDoSMitigationFlowlogs」、「DDoSMitigationReports」、「傳送至 Log Analytics」，選擇您剛剛所建立的 Log Analytics 工作區<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diag.PNG "diag")<br>
- - 查詢紀錄 <br>
+ - 之後您驗證 DDoS 後，就可以從 Log Analytics 查詢到您的紀錄 <br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs5.PNG "DDoSMitigationFlowLogs5")<br>
 ## 設定 DDoS 保護計量的警示
  - 在 Portal 上方搜尋監視，並點選此服務<br>
