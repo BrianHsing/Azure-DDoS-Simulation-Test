@@ -114,8 +114,10 @@
 	- 查詢紀錄 <br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs5.PNG "DDoSMitigationFlowLogs5")<br>
 	- Azure analytics dashboard
-	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs3.PNG "DDoSMitigationFlowLogs3")<br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs4.PNG "DDoSMitigationFlowLogs4")<br>
+		- 左邊的圖表顯示您的那些公用 IP 位置正在遭遇到 DDoS 攻擊，中間的圖表顯示 DDoS 攻擊來源與流量，右邊的圖表顯示 DDoS 保護系統在攻擊期間總量、丟棄、轉發的流量<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs3.PNG "DDoSMitigationFlowLogs3")<br>
+		- 左邊的圖表顯示丟棄封包的原因計數，中間的圖表顯示攻擊期間是通過哪些 Port 的攻擊流量，右邊的圖表顯示所有丟棄的封包流量統計<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs4.PNG "DDoSMitigationFlowLogs4")<br>
 
  - DDoSMitigationReports 欄位指標<br>
 	- Attack vectors 攻擊媒介<br>
