@@ -47,7 +47,13 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/enableddosstd.PNG "enableddosstd")<br>
  - 建立 Log Analytics 工作區，資源群組輸入 AppGW，名稱請自行定義，區域請選擇日本東部，完成後請按評論與建立<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/createloganalytic.PNG "createloganalytic")<br>
- 
+ - 在 Portal 上方搜尋監視，並點選此服務，在服務項目選單中選擇「診斷設定」<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric4.PNG "metric4")<br>
+ - 單獨選擇公用 IP 位置「myAGPublicIPAddress」<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric6.png "metric6")<br>
+ - 選擇「新增診斷設定」，勾選「DDoSMitigationFlowlogs」、「DDoSMitigationReports」、「傳送至 Log Analytics」，選擇您剛剛所建立的 Log Analytics 工作區<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diag.PNG "diag")<br>
+
 ## 設定 DDoS 保護計量的警示
  - 在 Portal 上方搜尋監視，並點選此服務<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric4.PNG "metric4")<br>
@@ -102,7 +108,8 @@
 
 ## 攻擊後查看相關紀錄(待完成)
  - DDoS 攻擊風險降低報告
- - DDoS 攻擊風險降低流程記錄
+	- 
+ - DDoS 攻擊風險降低流程記錄 (只有在公用 IP 位址的虛擬網路上啟用了 DDoS 保護標準 時，攻擊分析才會生效)
 
 
 
