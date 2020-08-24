@@ -126,12 +126,12 @@
 	- Top 10 source ASNs 前 10 個來源的 ASN<br>
 
  - DDoSMitigationReports 欄位指標 (只有在公用 IP 位址的虛擬網路上啟用了 DDoS 保護標準 時，攻擊分析才會生效)<br>
-	- Source IP 來源 IP
-	- Destination IP 目的地 IP
-	- Source Port 來源連接埠
-	- Destination port 目的地連接埠
-	- Protocol type 通訊協定類型
-	- Action taken during mitigation 在風險降低期間所採取的動作
+	- Source IP 來源 IP<br>
+	- Destination IP 目的地 IP<br>
+	- Source Port 來源連接埠<br>
+	- Destination port 目的地連接埠<br>
+	- Protocol type 通訊協定類型<br>
+	- Action taken during mitigation 在風險降低期間所採取的動作<br>
 
 
 **參考來源與更詳細的說明**<br>
