@@ -110,7 +110,7 @@
  - 建立 Azure Analytics Dashboard
 	- 下載 Azure analytics dashboard sample https://github.com/Anupamvi/Azure-DDoS-Protection/raw/master/flowlogsbyip.zip <br>
 	- 到您的 Log analytics 檢視表設計工具，上傳 FlowlogsbyIP.omsview <br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/report1.PNG "report1")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/report1.png "report1")<br>
 	- 查詢紀錄 <br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs5.PNG "DDoSMitigationFlowLogs5")<br>
 	- Azure analytics dashboard
