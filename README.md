@@ -53,7 +53,8 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric6.png "metric6")<br>
  - 選擇「新增診斷設定」，勾選「DDoSMitigationFlowlogs」、「DDoSMitigationReports」、「傳送至 Log Analytics」，選擇您剛剛所建立的 Log Analytics 工作區<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/diag.PNG "diag")<br>
-
+ - 查詢紀錄 <br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs5.PNG "DDoSMitigationFlowLogs5")<br>
 ## 設定 DDoS 保護計量的警示
  - 在 Portal 上方搜尋監視，並點選此服務<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric4.PNG "metric4")<br>
@@ -112,8 +113,6 @@
 	- 下載 Azure analytics dashboard sample https://github.com/Anupamvi/Azure-DDoS-Protection/raw/master/flowlogsbyip.zip <br>
 	- 到您的 Log analytics 檢視表設計工具，上傳 FlowlogsbyIP.omsview <br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/report1.png "report1")<br>
-	- 查詢紀錄 <br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs5.PNG "DDoSMitigationFlowLogs5")<br>
 	- Azure analytics dashboard
 		- 左邊的圖表顯示您的那些公用 IP 位置正在遭遇到 DDoS 攻擊，中間的圖表顯示 DDoS 攻擊來源與流量，右邊的圖表顯示 DDoS 保護系統在攻擊期間總量、丟棄、轉發的流量<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs3.PNG "DDoSMitigationFlowLogs3")<br>
