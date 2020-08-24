@@ -107,10 +107,31 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/metric7.PNG "metric7")<br>
 
 ## 攻擊後查看相關紀錄(待完成)
- - DDoS 攻擊風險降低報告
-	- 
- - DDoS 攻擊風險降低流程記錄 (只有在公用 IP 位址的虛擬網路上啟用了 DDoS 保護標準 時，攻擊分析才會生效)
+ - 建立 Azure Analytics Dashboard
+	- 下載 Azure analytics dashboard sample https://github.com/Anupamvi/Azure-DDoS-Protection/raw/master/flowlogsbyip.zip <br>
+	- 到您的 Log analytics 檢視表設計工具，上傳 FlowlogsbyIP.omsview <br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/report1.PNG "report1")<br>
+	- 查詢紀錄 <br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs5.PNG "DDoSMitigationFlowLogs5")<br>
+	- Azure analytics dashboard
+	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs3.PNG "DDoSMitigationFlowLogs3")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-DDoS-Stress-Testing/blob/master/DDoSImage/DDoSMitigationFlowLogs4.PNG "DDoSMitigationFlowLogs4")<br>
 
+ - DDoSMitigationReports 欄位指標<br>
+	- Attack vectors 攻擊媒介<br>
+	- Traffic statistics 流量統計資料<br>
+	- Reason for dropped packets 丟棄封包的原因<br>
+	- Protocols involved 通訊協定 <br>
+	- Top 10 source countries or regions 前 10 個來源國家/地區或區域<br>
+	- Top 10 source ASNs 前 10 個來源的 ASN<br>
+
+ - DDoSMitigationReports 欄位指標 (只有在公用 IP 位址的虛擬網路上啟用了 DDoS 保護標準 時，攻擊分析才會生效)<br>
+	- Source IP 來源 IP
+	- Destination IP 目的地 IP
+	- Source Port 來源連接埠
+	- Destination port 目的地連接埠
+	- Protocol type 通訊協定類型
+	- Action taken during mitigation 在風險降低期間所採取的動作
 
 
 **參考來源與更詳細的說明**<br>
