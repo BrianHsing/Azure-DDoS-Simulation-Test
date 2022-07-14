@@ -61,6 +61,7 @@ $frontendRule = New-AzApplicationGatewayRequestRoutingRule `
   -RuleType Basic `
   -HttpListener $defaultlistener `
   -BackendAddressPool $backendPool `
+  -priority "1" `
   -BackendHttpSettings $poolSettings
 #建立應用程式
 $sku = New-AzApplicationGatewaySku `
