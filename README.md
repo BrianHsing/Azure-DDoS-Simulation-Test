@@ -3,7 +3,7 @@
  但是還是會有來自 Layer 7 的攻擊，鎖定 Web 應用程式封包，我們可以使用 Azure 應用程式閘道來提供這些攻擊的防禦，本篇佈署的架構由 Web 應用程式、Azure 應用程式閘道組成的架構來讓大家練習。<br><br>
 微軟與 BreakingPoint Cloud 合作，讓開發商、開發者可以透過 BreakingPoint Cloud 驗證 Microsoft Azure DDoS 保護如何保護 Azure 資源，不過一個 Trial 帳號只有 5GB 的免費流量，如果長期測試還是需要購買付費方案。<br>
  您大約需要花費 30 分鐘完成此 Lab，透過手把手教學您將學會：<br>
- - 註冊、使用 BreakingPoint Cloud 驗證 Microsoft Azure DDoS Standard<br>
+ - 註冊、使用 BreakingPoint Cloud 驗證 Azure DDoS Network Protection<br>
  - 學會如何啟用 Azure DDoS Network Protection 保護 PaaS Web 應用程式<br>
  - 學會如何通過 Azure 監視器進行遙測、查看攻擊期間詳細資料、設定警示<br>
  - 學會如何查看攻擊後的完整摘要<br>
